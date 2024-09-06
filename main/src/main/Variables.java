@@ -3,14 +3,14 @@ package main;
 // Data types
 
 /*
- * boolean
- * byte
- * char
- * short
- * int
- * long
- * float
- * double
+ * boolean - true/false
+ * byte - 10
+ * char - A
+ * short - 1000
+ * int - 10
+ * long - 10000L
+ * float - 10.50
+ * double - 12.3
 */
 
 

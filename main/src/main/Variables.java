@@ -43,6 +43,17 @@ public class Variables {
 //		System.out.println(HelloWorld);
 		
 		
-		// 
+		String studentName = "Alex";
+		int studentId = 897;
+		int studentAge = 18;
+		float studentFee = 78.100f;
+		char studentGrade = 'A';
+		
+		System.out.println("- Student Name: " + studentName);
+		System.out.println("- Student ID: " + studentId);
+		System.out.println("- Student Age: " + studentAge);
+		System.out.println("- Student Fee: " + "$" + studentFee);
+		System.out.println("- Student Grade: " + studentGrade);
+		
 	}
 }

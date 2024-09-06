@@ -1,50 +1,48 @@
 package main;
 
-// Data types
-
-/*
- * boolean - true/false
- * byte - 10
- * char - A
- * short - 1000
- * int - 10
- * long - 10000L
- * float - 10.50
- * double - 12.3
-*/
-
-
 public class Variables {
 	public static void main(String[] args) {
 		int number = 1000;
-		
 		boolean bool = true;
-		
 		String text = "Hello";
-		
 		float floatNumber = (float) 10.10;
-		
 		float floatNumber2 = 10.10f;
-		
 		char letter = 'A';
 		
-		byte b = 10;
+//		System.out.println("number: " + number);
+//		System.out.println("boolean: " + bool);
+//		System.out.println("string: " + text);
+//		System.out.println("float: " + floatNumber);
+//		System.out.println("float: " + floatNumber2);
+//		System.out.println("char: " + letter);
 		
-		short s = 5000;
+//		int x = 10;
+//		int y = 10;
+//		System.out.print("result: "); 
+//		System.out.print(x + y);
 		
-		long l = 100000L;
+//		int x = 20, y = 20, z = 20;
+//		System.out.print("result x + y + z = ");
+//		System.out.print(x + y + z);
 		
-		double d = 12.3;
+//		int x, y, z;
+//		x = y = z = 50;
+//		System.out.print(x + y + z);
 		
-		System.out.println("number: " + number);
-		System.out.println("boolean: " + bool);
-		System.out.println("string: " + text);
-		System.out.println("float: " + floatNumber);
-		System.out.println("float: " + floatNumber2);
-		System.out.println("char: " + letter);
-		System.out.println("byte: " + b);
-		System.out.println("short: " + s);
-		System.out.println("long: " + l);
-		System.out.println("double: " + d);
+		// Identifiers
+		
+//		int num = 10;
+//		int $ = 10;
+//		int _hello = 20;
+//		String helloWorld = "helloWorld";
+//		String HelloWorld = "HelloWorld";
+//		
+//		System.out.println($);
+//		System.out.println(_hello);
+//		System.out.println(helloWorld);
+//		System.out.println(HelloWorld);
+		
+		
+		// 
 	}
 }

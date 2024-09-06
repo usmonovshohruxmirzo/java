@@ -1,4 +1,4 @@
-package main;
+package lessons;
 
 /*
  There are eight primitive data types in Java:

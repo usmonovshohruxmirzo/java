@@ -14,6 +14,15 @@ package main;
  * char 		2 bytes 	Stores a single character/letter or ASCII values
 */
 
+// non-primitive types are:
+/*
+ * Class
+ * Object
+ * String
+ * Array
+ * Interface
+*/
+
 public class DataTypes {
 	public static void main(String[] args) {
 		
@@ -75,5 +84,42 @@ public class DataTypes {
 	System.out.println(f1);
 	System.out.println(d1);
 	
-	}	
+	// Boolean Types
+	// boolean data type, which can only take the values true or false:
+	boolean isJavaFun = true;
+	boolean isFishTasty = false;
+	
+	System.out.println(isJavaFun); 
+	System.out.println(isFishTasty);
+	
+	// Characters
+	
+	// The char data type is used to store a single character. The character must be surrounded by single quotes, like 'A' or 'c':
+	char myGrade = 'A';
+	System.out.println(myGrade);
+	//Alternatively, if you are familiar with ASCII values, you can use those to display certain characters:
+	char myVar = 65;
+	System.out.println(myVar);
+	
+	// String
+	// The String data type is used to store a sequence of characters (text). String values must be surrounded by double quotes:
+	String str = "Hello World";
+	System.out.println(str);
+	
+	// Exercise
+	
+	int items = 50;
+	float costPerItem = 9.99f;
+	float totalCost = items * costPerItem;
+	char currency = '$';
+	
+	System.out.println("Number of items: " + items);
+	System.out.println("Cost per item: " + costPerItem + currency);
+	System.out.println("Total Cost: " + totalCost + currency);
+	
+	
+	
+	
+	
+	}
 }

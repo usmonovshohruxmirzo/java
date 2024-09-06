@@ -21,7 +21,7 @@ public class Variables {
 //		System.out.print("result: "); 
 //		System.out.print(x + y);
 		
-//		int x = 20, y = 20, z = 20;
+//		int x = 20, y = 20, z = 20; // comma-separated list
 //		System.out.print("result x + y + z = ");
 //		System.out.print(x + y + z);
 		

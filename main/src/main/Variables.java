@@ -43,6 +43,7 @@ public class Variables {
 //		System.out.println(HelloWorld);
 		
 		
+		// Student Info
 		String studentName = "Alex";
 		int studentId = 897;
 		int studentAge = 18;
@@ -54,6 +55,17 @@ public class Variables {
 		System.out.println("- Student Age: " + studentAge);
 		System.out.println("- Student Fee: " + "$" + studentFee);
 		System.out.println("- Student Grade: " + studentGrade);
+		
+		// Calculate the Area of a Rectangle	
+		int length = 4;
+		int width = 6;
+		int area;
+		
+		area = length * width;
+		
+		System.out.println("Length is: " + length);
+		System.out.println("Width is: " + width);
+		System.out.println("Area of Rectangle is: " + area);
 		
 	}
 }

@@ -2,10 +2,10 @@ package projects;
 
 public class Calculator {
 	public static void main(String[] args) {
-		int a = 10;
+		int a = 5;
 		int b = 2;
 		int result;
-		String operator = "+";
+		String operator = "/";
 		
 		switch(operator) {
 		case "+":
@@ -22,9 +22,9 @@ public class Calculator {
 			if (b == 0) {
 				System.err.println(a + " Cannot divided by " + b);
 			} else {
-				result = a - b;
+				float x = (float) a / b;
 				System.out.print(a + " / " + b + " = ");
-				System.out.print(result);
+				System.out.print(x);
 			}
 		break;
 		case "*":

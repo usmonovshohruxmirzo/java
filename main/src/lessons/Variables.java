@@ -49,7 +49,7 @@ public class Variables {
 		int studentAge = 18;
 		float studentFee = 78.100f;
 		char studentGrade = 'A';
-		
+	
 		System.out.println("- Student Name: " + studentName);
 		System.out.println("- Student ID: " + studentId);
 		System.out.println("- Student Age: " + studentAge);

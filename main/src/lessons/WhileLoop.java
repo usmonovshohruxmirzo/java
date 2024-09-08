@@ -25,15 +25,5 @@ public class WhileLoop {
 			countdown--;
 		}
 		System.out.println("countdown is over");
-		
-		int dice = 2;
-		while(dice <= 6) {
-			if (dice < 6) {
-				System.out.println(dice + ".\sNo Yatzy.");	
-			} else {
-				System.out.println(dice + ".\sYatzy!");
-			}
-			dice = dice + 1;
-		}
 	}
 }

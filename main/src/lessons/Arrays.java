@@ -38,11 +38,11 @@ public class Arrays {
 		int[][] multiDArr = {{1, 2, 3}, {4, 5, 6}};
 		System.out.println(multiDArr[1][2]);
 		
-//		for (int i = 0; i < multiDArr.length; i++) {
-//			for (int a = 0; a < multiDArr[i].length; a++) {
-//				System.out.println(multiDArr[i][a]);		
-//			}
-//		}
+		for (int i = 0; i < multiDArr.length; i++) {
+			for (int a = 0; a < multiDArr[i].length; a++) {
+				System.out.println(multiDArr[i][a]);		
+			}
+		}
 		
 		for (int[] row : multiDArr) {
 			for (int i : row) {

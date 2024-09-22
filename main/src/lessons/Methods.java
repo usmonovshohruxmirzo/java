@@ -24,6 +24,14 @@ public class Methods {
 		return x + y;
 	}
 	
+	static int Recursion(int k) {
+		if (k > 0) {
+			return k + Recursion(k - 1);			
+		} else {
+			return 0;
+		}
+	}
+	
 	public static void main(String[] args) {
 		myMethod("Alex");
 		Calc(10, 10);
@@ -34,6 +42,28 @@ public class Methods {
 		
 		System.out.println(myNum);
 		System.out.println(myDouble);
+		
+		// Java Scope
+
+	    // Code here CANNOT use x
+
+	    { // This is a block
+
+	      // Code here CANNOT use x
+
+	      int x = 100;
+
+	      // Code here CAN use x
+	      System.out.println(x);
+
+	    } // The block ends here
+
+	  // Code here CANNOT use x
+	    
+	    
+	 // Java Recursion
+	 int result = Recursion(5);
+	 System.out.println(result);
+
 	}
-	
 }
